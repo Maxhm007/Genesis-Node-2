@@ -1,6 +1,12 @@
 name: Genesis Node 2 Attestation
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'node.json'
+      - 'scripts/attest.py'
+      - '.github/workflows/attest.yml'
   workflow_dispatch:
   schedule:
     - cron: '13 * * * *'
