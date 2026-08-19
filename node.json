@@ -7,6 +7,15 @@
   "coordinator_repo": "Maxhm007/Genesis-AI-Network",
   "repository": "Maxhm007/Genesis-Node-2",
   "network": "gden/0.2",
+  "model_profile": {
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "license": "Apache-2.0",
+    "runtime_policy": "local_or_owner_provided_compute",
+    "specialization": ["reasoning", "research", "validation", "review"],
+    "identity_binding": false,
+    "replaceable": true,
+    "replacement_policy": "benchmark_driven"
+  },
   "peer_repositories": [
     "Maxhm007/Genesis-AI-Network",
     "Maxhm007/Genesis-Node-3"
